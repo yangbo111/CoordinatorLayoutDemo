@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/white</item><!--Toolbar字体颜色 -->
+        <item name="windowActionBar">false</item><!--系统默认菜单选项 -->
+        <item name="windowNoTitle">true</item> <!-- 标题-->
+        <item name="colorPrimary">@android:color/holo_blue_bright</item> <!--actionbar 属性颜色 -->
+        <item name="colorPrimaryDark">@android:color/holo_blue_bright</item><!--标题栏的颜色 -->
+        <item name="android:windowTranslucentNavigation">true
+        </item><!--4.4以后出现，设置设备的虚拟键透明，虚拟键包括返回和菜单键 -->
+        <item name="android:windowTranslucentStatus">true
+
+        </item><!--4.4以后出现，可以拉升到顶部状态栏，并且定义顶部状态栏透明 -->
+        <item name="test">@style/toolbarTitleSize</item>>
+    </style>
+
+    <style name="toolbarTitleSize" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">80sp</item>
+    </style>
+</resources>
